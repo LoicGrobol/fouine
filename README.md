@@ -2,7 +2,7 @@ fouine
 ======
 
 [[!Latest PyPI version](https://img.shields.io/pypi/v/fouine.svg)](https://pypi.org/project/fouine)
-![Build Status](https://github.com/LoicGrobol/fouine/workflows/ci/badge.svg)
+[[!Build Status](https://github.com/LoicGrobol/fouine/workflows/ci/badge.svg)](https://github.com/LoicGrobol/fouine/actions?query=workflow%3ACI)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A tiny download function that does the maximum
