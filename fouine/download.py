@@ -11,6 +11,13 @@ import tqdm
 
 from typing_extensions import Literal
 
+# Python < 3.8 shim
+try:
+    from gzip import BadGzipFile  # type: ignore # (silence mypy for < 3.8)
+except ImportError:
+    BadGzipFile = OSError
+
+
 def download(
     source: str,
     target_dir: ty.Union[str, pathlib.Path],
