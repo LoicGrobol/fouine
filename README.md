@@ -7,9 +7,9 @@ fouine
 
 A tiny download function that does the maximum
 
-## Usage
+## Usage
 
-## Installation
+## Installation
 
 Install with pip
 
